@@ -1,0 +1,210 @@
+{
+ "scriptContent": {
+  "header": {
+   "scriptName": "MartinHan_SLDC\\DEV\\main\\INBOUND VOICE",
+   "busNo": 4597359,
+   "mediaType": 4,
+   "mediaTypeName": "call",
+   "purposeType": "General",
+   "variableRedaction": "",
+   "nextActionId": 4,
+   "status": "Active",
+   "lastSavedIn": "cxs",
+   "wasLayoutAlgorithmRun": true
+  },
+  "actions": {
+   "1": {
+    "actionId": 1,
+    "libraryId": "B2F794C5-0232-40E7-9830-76D573BF57D7",
+    "name": "BEGIN",
+    "version": 1,
+    "label": "Begin",
+    "dependencyOrder": "0",
+    "implType": "0",
+    "x": 616,
+    "y": 408,
+    "xws": 616,
+    "yws": 408
+   },
+   "2": {
+    "actionId": 2,
+    "libraryId": "689A4A1B-FA0D-47B3-9A02-CBEB4735F08F",
+    "name": "REQAGENT",
+    "version": 1,
+    "label": "Reqagent",
+    "dependencyOrder": "0",
+    "implType": "0",
+    "x": 808,
+    "y": 416,
+    "xws": 808,
+    "yws": 416
+   },
+   "3": {
+    "actionId": 3,
+    "libraryId": "1F31EA92-4E59-407E-B8B1-1BC17AEB8852",
+    "name": "AGTINT_WRKFLO_CONFIG",
+    "version": 1,
+    "label": "Agent Workflow Configuration",
+    "dependencyOrder": "0",
+    "implType": "0",
+    "x": 1056,
+    "y": 320,
+    "xws": 1056,
+    "yws": 320
+   }
+  },
+  "properties": {
+   "1": {
+    "0": {
+     "name": "RootFolder",
+     "value": ""
+    },
+    "1": {
+     "name": "Application",
+     "value": ""
+    },
+    "2": {
+     "name": "ParamCount",
+     "value": "0"
+    },
+    "3": {
+     "name": "Parameters",
+     "value": [
+      ""
+     ]
+    }
+   },
+   "2": {
+    "0": {
+     "name": "Skill",
+     "value": "Default"
+    },
+    "1": {
+     "name": "TargetAgent",
+     "value": ""
+    },
+    "2": {
+     "name": "PriorityManagement",
+     "value": "DefaultfromSkill"
+    },
+    "3": {
+     "name": "InitialPriority",
+     "value": "0"
+    },
+    "4": {
+     "name": "Acceleration",
+     "value": "1"
+    },
+    "5": {
+     "name": "Function",
+     "value": "Linear"
+    },
+    "6": {
+     "name": "MaxPriority",
+     "value": "1000"
+    },
+    "7": {
+     "name": "Sequence",
+     "value": ""
+    },
+    "8": {
+     "name": "ZipTone",
+     "value": "AfterSequence"
+    },
+    "9": {
+     "name": "ScreenPopSource",
+     "value": "DefaultFromSkill"
+    },
+    "10": {
+     "name": "ScreenPopURL",
+     "value": ""
+    },
+    "11": {
+     "name": "HighProficiency",
+     "value": "1"
+    },
+    "12": {
+     "name": "LowProficiency",
+     "value": "20"
+    },
+    "13": {
+     "name": "RoutingAttribute",
+     "value": "NotApplicable"
+    }
+   },
+   "3": {
+    "0": {
+     "name": "agentUserId",
+     "value": "{global:__AgentID}"
+    },
+    "1": {
+     "name": "searchWorkflow",
+     "value": ""
+    },
+    "2": {
+     "name": "timelineWorkflow",
+     "value": ""
+    },
+    "3": {
+     "name": "dataMemorializationWorkflow",
+     "value": ""
+    },
+    "4": {
+     "name": "searchCacheKey",
+     "value": "{cacheKey}"
+    },
+    "5": {
+     "name": "searchInput",
+     "value": ""
+    }
+   }
+  },
+  "branches": {
+   "1": [
+    {
+     "to": 2,
+     "label": "",
+     "type": "default",
+     "labelDistance": null,
+     "index": 0,
+     "ports": "r,l",
+     "lineType": "straight",
+     "elbows": []
+    }
+   ]
+  },
+  "isDataLoaded": true,
+  "isDataLoading": false,
+  "isDataSaving": false,
+  "isNewScript": false,
+  "isViewOnlyMode": true,
+  "isLockOverride": false,
+  "isVersionHistoryMode": false,
+  "dataLoadingProgress": 100,
+  "error": null,
+  "issues": {
+   "totalErrors": 0,
+   "totalWarnings": 0,
+   "actions": {},
+   "script": {}
+  },
+  "startTraceOptions": {
+   "skill": "",
+   "skillDescription": "",
+   "simulateInboundCall": false,
+   "phone": "",
+   "dnis": "",
+   "ani": "",
+   "simulateDateTime": false,
+   "dateTime": null,
+   "timezone": "(Business Unit Default)",
+   "parameters": []
+  },
+  "versionHistory": null,
+  "scriptVersions": {},
+  "lastVersionEdited": null,
+  "traceWindowCount": 0,
+  "variables": {},
+  "schemaVersion": "1.0.0"
+ }
+}
